@@ -6,7 +6,7 @@ using std::string;
 
 class Operacoes{
     public:
-        void caadastro(string nome, string senha, string email,string nivel){               //Void não retorna
+        void cadastro(string nome, string senha, string email,string nivel){               //Void não retorna
         cout<< "Cadastro de usuário realizado\n";
         }
         string login(string nome, string senha){
